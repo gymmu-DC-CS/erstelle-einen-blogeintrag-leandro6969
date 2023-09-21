@@ -9,3 +9,22 @@ body {
   background-color: lightgray;
   font-family: sans-serif;
 }
+*{
+  box-sizing: border-box;
+}
+body{
+  background-image: url(white-abstract-background_23-2148817571.avif);
+}
+/* Hintergrundbild eingefügt Quelle:https://www.freepik.com/free-vector/white-abstract-background_12066098.htm#query=gray&position=6&from_view=keyword&track=sph */
+
+section{
+  text-align: left;
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+  background-color:rgb(179, 179, 179);
+  padding: 5px;
+}
+h1{
+  text-align: center;
+}
