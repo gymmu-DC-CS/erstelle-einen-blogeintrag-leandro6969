@@ -9,3 +9,83 @@ body {
   background-color: lightgray;
   font-family: sans-serif;
 }
+*{
+  box-sizing: border-box;
+}
+body{
+  background-image: url(white-abstract-background_23-2148817571.avif);
+}
+/* Hintergrundbild eingefügt Quelle:https://www.freepik.com/free-vector/white-abstract-background_12066098.htm#query=gray&position=6&from_view=keyword&track=sph */
+
+section{
+  text-align: left;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  background-color:rgb(179, 179, 179);
+  padding: 10px;
+  border-radius: 25px;
+  border: 2px solid #b6b6b6;
+  /* grauer Hintergrund, Box mit abgerundeten Ecken */
+}
+h1{
+  text-align: center;
+}
+
+
+.logo {
+  max-width: 75px;
+  max-height: 375px;
+  /* war zuerst .img musste später angepasst werden, da nicht alle Bilder auf diese Grösse begrenzt seien sollten. */
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+  animation-name: Logo;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes Logo{
+  0% {background-color: rgb(179, 179, 179);}
+  50% {background-color: rgb(140, 140, 140);}
+  75% {background-color: rgb(111, 111, 111);}
+  100% {background-color: rgb(179, 179, 179);} 
+}
+/* Animation für den Farbverlauf des Logos */
+div {
+  width: 100px; 
+  transition: width 2s;
+  transition-timing-function: linear;
+  margin-left: auto;
+  margin-right: auto;
+} 
+div:hover {
+  width: 140px;
+}
+/* Transition für das Logo */
+
+a:link {
+  color: blue
+}
+
+/* besuchter link */
+a:visited {
+  color:red
+}
+
+/* Maus auf dem Link */
+a:hover {
+  color: lightblue;
+}
+
+#Bild1 {
+ margin-top: 20px;
+ height: auto;
+ width: auto;
+margin-bottom: 20px;
+/* ID für das letzte Bild, eigene ID, weil es sich nicht bewegen soll und es extra margin benötigt damit es ordentlich aussieht. */
+}
